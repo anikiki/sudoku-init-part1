@@ -11,15 +11,15 @@ class SudokuGame {
 
     // ## STEP_1 ##
     // Make this function return a 2D array of integers with the Sudoku game solution. Use these values:
-    //    3 5 9 6 1 8 4 2 7
-    //    7 4 2 5 3 9 8 6 1
-    //    1 6 8 4 7 2 9 5 3
-    //    4 2 3 8 9 5 7 1 6
-    //    5 8 7 1 6 4 3 9 2
-    //    6 9 1 7 2 3 5 8 4
-    //    2 7 5 9 4 6 1 3 8
-    //    8 3 4 2 5 1 6 7 9
-    //    9 1 6 3 8 7 2 4 5
+    //    3, 5, 9, 6, 1, 8, 4, 2, 7
+    //    7, 4, 2, 5, 3, 9, 8, 6, 1
+    //    1, 6, 8, 4, 7, 2, 9, 5, 3
+    //    4, 2, 3, 8, 9, 5, 7, 1, 6
+    //    5, 8, 7, 1, 6, 4, 3, 9, 2
+    //    6, 9, 1, 7, 2, 3, 5, 8, 4
+    //    2, 7, 5, 9, 4, 6, 1, 3, 8
+    //    8, 3, 4, 2, 5, 1, 6, 7, 9
+    //    9, 1, 6, 3, 8, 7, 2, 4, 5
     private fun createSolution(): Array<IntArray> {
         TODO("STEP1 - You need to initialise the 2D array containing the solution. See the comment in code marked with ## STEP_1 ##")
     }
@@ -30,15 +30,15 @@ class SudokuGame {
     // in the sudoku board will be visible. It is `false`, the user doesn't see the number!
     // Let's have 2 values of `false` so that our user will have to enter in 2 numbers in order to solve the sudoku game.
     // Something like this - elements at positions (0,0) and (1,8) are `false`:
-    //    false  true true true true true true true true
-    //    true  true true true true true true true false
-    //    true  true true true true true true true true
-    //    true  true true true true true true true true
-    //    true  true true true true true true true true
-    //    true  true true true true true true true true
-    //    true  true true true true true true true true
-    //    true  true true true true true true true true
-    //    true  true true true true true true true true
+    //    false,  true, true, true, true, true, true, true, true
+    //    true,  true, true, true, true, true, true, true, false
+    //    true,  true, true, true, true, true, true, true, true
+    //    true,  true, true, true, true, true, true, true, true
+    //    true,  true, true, true, true, true, true, true, true
+    //    true,  true, true, true, true, true, true, true, true
+    //    true,  true, true, true, true, true, true, true, true
+    //    true,  true, true, true, true, true, true, true, true
+    //    true,  true, true, true, true, true, true, true, true
     private fun initVisibleElements(): Array<BooleanArray> {
         TODO("STEP2 - You need to initialise the 2D array containing boolean elements that mark visible items. See the comment in code marked with ## STEP_2 ##")
     }
